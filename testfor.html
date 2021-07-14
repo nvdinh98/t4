@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="text"></p>
+<script>
+
+  function demofor() {
+    let i = 1 ;
+    do{
+    let text = " the number " + i +"<br>" ;
+    i++ ;
+    document.getElementById("text").innerHTML += text ;
+  } while ( i < 10);
+  }
+  demofor();
+</script>
+</body>
+</html>
